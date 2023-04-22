@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args ) {
         Map<String, String> user = new HashMap<>();
-        user.put("name", "Orest");
+        user.put("name", "Oleksandr");
         user.put("surname", "Dymarchuk");
 
         System.out.println(new Gson().toJson(user));
